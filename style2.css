@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --playfair: "Playfair Display", serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+.section2 {
+  width: 100%;
+  height: 400px;
+  margin: 3rem auto;
+  position: relative;
+  margin-top:99px;
+}
+
+.section2 .section2-text {
+  position: absolute;
+  width: 40%;
+  right: 0;
+  text-align: right;
+  height: 100%;
+  background-image: linear-gradient(to left, #266de9c7, transparent);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+  font-family: "poppins", sans-serif;
+}
+
+.section2 .section2-text h1 {
+  font-size: 4rem;
+  font-weight: 600;
+      
+}
+
+.section2 .section2-text h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.section2 .section2-text button {
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #266de9;
+  cursor: pointer;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  width: 10rem;
+  align-self: flex-end;
+}
+
+.section2 .section2-text p {
+  margin-top: 1rem;
+}
+
+.section2 .section2-text p span {
+  border-left: 1px solid white;
+  padding-left: 1rem;
+  margin-left: 1rem;
+}
+
+.section2 .section2-video video {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* section 3 grid */
+
+.offer-heading {
+  text-align: center;
+}
+
+.offer-heading h1 {
+  font-family: var(--playfair);
+  color: #266de9;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.offer-heading p {
+  font-family: var(--poppins);
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+  grid-template-rows: 213px;
+  /* grid-auto-flow: dense; */
+ 
+}
+
+.grid .image1 {
+  /* width: 100%; */
+  grid-row: 1/3;
+  height: 426px;
+  background-image: url(./image/grid1.jpg);
+  background-size: cover;
+}
+
+.grid .image2 {
+  /* width: 100%; */
+  background-image: url(./image/grid2.jpg);
+  background-size: cover;
+}
+
+.grid .image3 {
+  /* width: 100%; */
+  background-image: url(./image/grid3.jpg);
+  background-size: cover;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* about page--------------------- */
+
+.about-banner {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./image/about-banner.jpg);
+}
+
+.about-text {
+  width: 86%;
+  margin: 2rem auto;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: var(--playfair);
+  font-weight: 800;
+  margin-top: 2rem;
+  line-height: 3rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: var(--poppins);
+  font-weight: 400;
+}
