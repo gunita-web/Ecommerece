@@ -1,6 +1,4 @@
-Thanks for downloading this template!
+# Ecommerce Wbsite 
 
-Template Name: Multi
-Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+
+Ecommerce website Where Members are able to Signup and login for their profile and they can do online shopping from this ecommerce website as well we added paypal as a payment method
